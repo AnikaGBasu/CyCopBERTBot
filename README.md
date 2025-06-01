@@ -1,5 +1,5 @@
 
-# CyCopDiscordBot
+# CyCop Discord Bot
 
 **CyCop** is a Discord bot that leverages a fine-tuned BERT classifier to detect and flag cyberbullying in real time.
 It resides in a designated channel on your Discord server. Whenever someone mentions the bot, it spawns a lightweight Python process that runs a BERT‐based classifier on the message content. CyCop then replies with one of two responses:
